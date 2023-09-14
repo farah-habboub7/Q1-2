@@ -1,0 +1,71 @@
+*{
+    font-family: Poppins;
+}
+
+@font-face {
+    font-family:Poppins;
+    src: url(Poppins/Poppins-Medium.ttf);
+}
+
+:root {
+    --primary: #008AAA;
+    --secondary:#D1884F;
+    --primaryOP: #3BBADB;
+    --primaryOP2:rgba(59, 187, 219, 0.48);
+}
+
+.pColor{
+    color: var(--primary);
+}
+.sColor{
+    color: var(--secondary);
+}
+.pOpColor{
+color: var(--primaryOP);
+}
+
+
+.linkHover{
+    color: black;
+}
+.active{
+    color: #D1884F;
+}
+.linkHover:hover {
+    color:var(--secondary);
+}
+
+.info{
+    line-height: -5px;
+    font-size: 13px;
+}
+.imgDiv{
+    height: 75%;
+}
+.personalImag{
+    border-radius: 0 0 0 50%;
+    box-shadow: -15px 10px 1px var(--primaryOP2);
+}
+
+
+/* ---Btn--- */
+.btn_duration {
+    background-color: var(--primary);
+    color: white;
+    box-shadow: 0 5px 8px var(--primaryOP2);
+}
+.btn_duration-outline {
+    border:1px solid var(--primary);
+    color: var(--primary);
+    box-shadow: 0 3px 5px rgba(128, 128, 128, 0.44);
+}
+.btn_duration-outline:hover {
+    border:1px solid var(--primary);
+    background-color: var(--primary);
+    color: white;
+}
+
+/* Javascript Question */
+.jsP{
+    text-shadow:  0 5px 8px var(--primaryOP2);
+}
